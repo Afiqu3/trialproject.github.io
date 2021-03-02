@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Smart Phone Centre </title>
+    </head>
+    <body>
+        <form action="mailto:afiquehossain84@gmail.com" method="post" enctype="text/plain">
+            <label for="address"> Address:</label>
+            <input type="text" name="address" size="30px" maxlength="100" placeholder="address" id="address">
+            <br>
+            <label for="postcode"> Postcode:</label>
+            <input type="number" name="postcode" size="30px" maxlength="100" placeholder="postcode" id="postcode">
+            <br>
+            <label for="city"> City:</label>
+            <input type="text" name="city" size="30px" maxlength="100" placeholder="city" id="city">
+            <p> Choose your brand: </p>
+            <select name="brand" id="brand">
+                <option></option>
+                <option value="Redmi">Redmi</option>
+                <option value="Samsung">Samsung</option><option value="Nokia">Nokia</option><option value="Oppo">Oppo</option>   <option value="One plus">One Plus</option>
+                <option value="Walton">Walton</option>
+                <option value="Vivo">Vivo</option>
+                <option value="Realme">RealMe</option>
+                <option value="Apple">Apple</option>
+                <option value="Others">Others</option>
+            </select>
+            <hr>
+            <p> Choose your payment method: </p>
+            <label><input type="radio" name= "payment" value="bkash">Bkash</label>
+            <label><input type="radio" name="payment" value="nagad">Nagad</label>
+            <label><input type="radio" name="payment" value="debit card">Debit Card</label>
+            <label><input type="radio" name="payment"  value="credit card">Credit Card</label>
+            <br>
+            <hr>
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea rows="4" cols="40" name="comments" id="comments"></textarea>
+            <br>
+            <hr>
+            <label><input type="checkbox" name="email updates" >Sign me up for email updates</label>
+            <br>
+            <label><input type="checkbox" name="save payment" checked="checked">Securely save my payment details</label>
+            <br>
+            <br>
+            <input type="submit" value="Submit" >
+            
+
+        </form>
+    </body>
+
+</html>
